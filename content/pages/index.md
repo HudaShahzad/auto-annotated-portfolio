@@ -10,7 +10,6 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 75
-
 sections:
 
 - type: HeroSection
