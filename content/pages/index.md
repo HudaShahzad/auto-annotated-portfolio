@@ -12,6 +12,7 @@ backgroundImage:
   opacity: 75
 
 sections:
+
 - type: HeroSection
   colors: colors-f
   backgroundSize: full
