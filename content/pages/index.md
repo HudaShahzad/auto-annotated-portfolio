@@ -10,30 +10,18 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 75
-sections:
 
-- type: HeroSection
-  colors: colors-f
-  backgroundSize: full
-  title: I am a Project Manager with 5+ years of experience under my sleeve.
-  subtitle: >
-    This is my info—I’m sharing it all this with ya’ll to impress you with all
-    the hard work I’ve done in the past few years.
-  image:
-    url: /images/huda.jpeg
-    altText: Huda Shah – Project Manager
-  styles:
-    self:
-      height: auto
-      width: wide
-      padding:
-        - pt-36
-        - pb-48
-        - pl-4
-        - pr-4
-      flexDirection: row-reverse
-      textAlign: left
-  actions: []
+sections:
+  - type: HeroSection
+    colors: colors-f
+    backgroundSize: full
+    title: I am a Project Manager with 5+ years of experience under my sleeve.
+    subtitle: >
+      This is my info—I’m sharing it all this with ya’ll to impress you with all
+      the hard work I’ve done in the past few years.
+    image:
+      url: /images/huda.jpeg
+      altText: Huda Shah – Project Manager
     styles:
       self:
         height: auto
@@ -45,6 +33,7 @@ sections:
           - pr-4
         flexDirection: row-reverse
         textAlign: left
+    actions: []
 
   - type: FeaturedProjectsSection
     elementId: ''
