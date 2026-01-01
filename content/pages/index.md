@@ -24,7 +24,7 @@ sections:
       can continue to scroll down to see more details and credentials about me.
     image:
       type: ImageBlock
-      url: /images/huda.jpg
+      url: /images/huda.jpeg
       altText: Huda Shah – Project Manager
     actions: []
     styles:
