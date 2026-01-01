@@ -2,6 +2,7 @@
 type: PageLayout
 title: Home
 colors: colors-a
+
 backgroundImage:
   type: BackgroundImage
   url: /images/bg1.jpg
@@ -9,36 +10,38 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 75
+
 sections:
-- elementId: ''
+  - type: HeroSection
+    elementId: ''
     colors: colors-f
     backgroundSize: full
     title: >-
-      I am a Project Manager with 5+ years of experience under my sleeve. 
+      I am a Project Manager with 5+ years of experience under my sleeve.
     subtitle: >-
       This is my info—I’m sharing it all this with ya’ll to impress you with all
       the hard work I’ve done in the past few years. Once you’re impressed, you
       can continue to scroll down to see more details and credentials about me.
     image:
-    type: ImageBlock
-    url: /images/huda.jpg
-    altText: Huda Shah – Project Manager
-  styles:
-    self:
-      height: auto
-      width: wide
-      padding:
-        - pt-36
-        - pb-48
-        - pl-4
-        - pr-4
-      flexDirection: row-reverse
-      textAlign: left
-  type: HeroSection
-  actions: []
-  - colors: colors-f
-    type: FeaturedProjectsSection
+      type: ImageBlock
+      url: /images/huda.jpg
+      altText: Huda Shah – Project Manager
+    actions: []
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-48
+          - pl-4
+          - pr-4
+        flexDirection: row-reverse
+        textAlign: left
+
+  - type: FeaturedProjectsSection
     elementId: ''
+    colors: colors-f
     actions:
       - type: Link
         label: See all projects
@@ -63,6 +66,7 @@ sections:
           - pr-4
         textAlign: left
     subtitle: Projects
+
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
@@ -90,10 +94,11 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
+
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: "Got an interesting project? Tell me more... 💬"
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -131,19 +136,11 @@ sections:
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        self:
-          textAlign: center
+      submitLabel: "Submit 🚀"
     styles:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
           - pt-24
           - pb-24
